@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>Form Demo</title>
+<style>
+body{
+background-color:powderblue;
+font-family:Arial;
+font-color:yellow;
+}
+</style>
+<h1>Student Registration form</h1>
+</head>
+<body>
+<div class="container">
+<div class="row">
+<form action="file://D:/MCA_185/p1.html">
+<label class="txt_deco">Last Name:-</label>
+<input type="text"id="txt_L_Name"/>
+<br><br>
+<label class="txt_deco">First Name:-</label>
+<input type="text" id="txt_f_Name"/>
+<br><br>
+<label class="txt_deco">Middle Name:-</label>
+<input type="text" id="txt_M_Name"/>
+<br><br>
+<label>Course:-</label>
+<select id="Drp_Dwn">
+<option value="select"/><label>select</label></option>
+<option value="MCA".><label>MCA</label></option>
+<option value="MBA"/><label>MBA</label></option>
+<option value="BBA"/><label>BBA</label></option>
+</select>
+<br><br>
+<label>Gender:-</label>
+<input type="radio"value="Female"
+name="r1"/><label>Female</label>
+<input type="radio" value="Male" name="r1"/><label>Male</label>
+<input type="radio" value="other"
+name="r1"/><label>Other</label>
+<br><br>
+<label>Hobbies:</label>
+<input type="checkbox"value="Reading"/><label>Reading</label>
+<input type="checkbox"value="cricket"/><label>cricket</label>
+<input type="checkbox"value="dancing"/><label>dancing</label>
+<input type="checkbox"value="reading"/><label>reading</label>
+<br><br>
+<button onclick="Fun val()">click for validation</button>
+<br><br>
+<input type="submit"value="submit"/>
+<input type="reset"value="reset"/>
+</form>
+</body>
+</html>
